@@ -23,7 +23,7 @@ class Ui_MainWindow(QWidget):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
         MainWindow.resize(676, 684)
-        MainWindow.setStyleSheet(u"")
+        MainWindow.setStyleSheet(u"background-color: rgb(0,0,0);")
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.UiMainIcon = QLabel(self.centralwidget)
